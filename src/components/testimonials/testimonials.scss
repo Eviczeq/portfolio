@@ -1,5 +1,23 @@
 @import '../../gloal.scss';
 .testimonials {
+    .blinkArrow{
+        bottom: 10px;
+        left: 40%;
+
+        img{
+            width: 40px;
+            animation: arrowBlink 2s infinite;
+        }
+        @keyframes arrowBlink {
+            from{
+                opacity: 1;
+            }
+            
+            to{
+                opacity: 0;
+            }
+        }
+    }
     background-color: white;
     display: flex;
     align-items: center;

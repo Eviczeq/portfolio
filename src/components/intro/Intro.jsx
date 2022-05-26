@@ -11,6 +11,7 @@ export default function Intro() {
   
   useEffect(() => {
     if (textRef.current && isLoading) {
+      // eslint-disable-next-line react-hooks/exhaustive-deps
       isLoading = false;
      
         init(textRef.current, {

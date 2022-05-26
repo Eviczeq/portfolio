@@ -60,6 +60,9 @@ export default function Testimonials() {
         ))}
 
       </div>
+      <a className='blinkArrow' href="#contact">
+          <img src="assets/down.png" alt="" />
+        </a>
     </div>
   )
 }
