@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\public",
+    "\\public\\assets",
+    "\\public\\assets\\i18n",
+    "\\public\\assets\\i18n\\about",
+    "\\src"
   ],
-  "SelectedNode": "\\C:\\Users\\Koichi Inaoka\\Source\\Repos\\portfolio",
+  "SelectedNode": "\\public\\assets\\i18n\\about\\jp.json",
   "PreviewInSolutionExplorer": false
 }
