@@ -1,7 +1,7 @@
 import Topbar from './components/topbar/Topbar';
 import Intro from './components/intro/Intro';
 import Portfolio from './components/portfolio/Portfolio';
-import Testimonials from './components/testimonials/Testimonials';
+//import Testimonials from './components/testimonials/Testimonials';
 import Contacts from './components/contact/Contact';
 // import Works from './components/works/Works';
 import About from './components/about/About';
@@ -25,7 +25,7 @@ function App() {
           <About/>
           <Portfolio/>
           {/* <Works/> */}
-          <Testimonials/>
+          {/*<Testimonials/>*/}
           <Contacts/>
           
         </div>
